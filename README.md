@@ -14,7 +14,7 @@ Dev/Staging/Prod environments, etc.).
 
 ## 📚 Table of Contents
 
-| Day | Topic | Folder |
+| - | Topic | Folder |
 |-----|-------|--------|
 | [1.](#-1--introduction-to-iac-first-ec2-deployment) | Introduction to IaC, Terraform setup, first EC2 deployment | [`1-ec2-basics/`](./1-ec2-basics) |
 | [2.](#-2--providers-variables-tfvars--conditional-expressions) | Providers, input/output variables, `terraform.tfvars`, conditionals | [`2-variables-tfvars/`](./2-variables-tfvars) |
