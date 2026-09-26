@@ -29,7 +29,7 @@ Dev/Staging/Prod environments, etc.).
 ## 🗂 Repo Structure
 
 ```
-terraform-zero-to-hero/
+Terraform-on-AWS-Modules-Remote-State-Workspaces-Vault/
 ├── README.md                  ← you are here
 ├── .gitignore
 ├── 1.-ec2-basics/
