@@ -9,7 +9,7 @@ supplying values through `terraform.tfvars`, and adapting behaviour per environm
 ## 📁 What's in This Folder
 
 ```
-2/
+2-variables-tfvars/
 ├── README.md                  ← you are here
 ├── provider.tf                ← provider configuration
 ├── input.tf                   ← input variable declarations
