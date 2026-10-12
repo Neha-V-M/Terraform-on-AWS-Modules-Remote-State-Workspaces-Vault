@@ -1,0 +1,23 @@
+# Copy this file to terraform.tfvars and fill in your own values.
+# terraform.tfvars is git-ignored — NEVER commit real Role IDs or Secret IDs.
+#
+# Alternative: skip this file and use environment variables instead:
+#   export TF_VAR_vault_role_id="..."
+#   export TF_VAR_vault_secret_id="..."
+
+region        = "us-east-1"
+ami_value     = "<ami-id>"
+instance_type = "t2.micro"
+subnet_id     = "<subnet-id>"
+
+# Must include http:// and the port — a missing scheme causes
+# "parse first segment in URL cannot contain colon"
+vault_address = "http://<vault-instance-public-ip>:8200"
+
+# Printed by vault-setup/configure-vault.sh
+vault_role_id   = "<role-id>"
+vault_secret_id = "<secret-id>"
+
+# Defaults match configure-vault.sh; change only if you used different names
+# vault_kv_mount    = "kv"
+# vault_secret_name = "test-secret"
