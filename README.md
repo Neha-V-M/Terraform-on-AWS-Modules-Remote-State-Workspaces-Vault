@@ -32,33 +32,33 @@ Dev/Staging/Prod environments, etc.).
 Terraform-on-AWS-Modules-Remote-State-Workspaces-Vault/
 ├── README.md                  ← you are here
 ├── .gitignore
-├── 1.-ec2-basics/
+├── 1-ec2-basics/
 │   ├── main.tf
 │   └── notes.md
-├── 2.-variables-tfvars/
+├── 2-variables-tfvars/
 │   ├── provider.tf
 │   ├── input.tf
 │   ├── output.tf
 │   ├── main.tf
 │   ├── terraform.tfvars.example
 │   └── notes.md
-├── 3.-modules/
+├── 3-modules/
 │   ├── modules_ec2_instance/
 │   ├── main.tf
 │   └── notes.md
-├── 4.-state-backend/
+├── 4-state-backend/
 │   ├── main.tf
 │   ├── backend.tf
 │   └── notes.md
-├── 5.-provisioners/
+├── 5-provisioners/
 │   ├── main.tf
 │   ├── app.py
 │   └── notes.md
-├── 6.-workspaces/
+├── 6-workspaces/
 │   ├── modules/ec2_instance/
 │   ├── main.tf
 │   └── notes.md
-└── 7.-vault-secrets/
+└── 7-vault-secrets/
     ├── main.tf
     └── notes.md
 ```
@@ -146,6 +146,3 @@ This repo documents my personal walkthrough of the *Terraform * journey, includi
 mistakes and live-debugging moments — because that's usually where the real learning happens.
 Feel free to fork it, open issues, or suggest improvements.
 
-## 📄 License
-
-MIT — feel free to reuse for your own learning.
